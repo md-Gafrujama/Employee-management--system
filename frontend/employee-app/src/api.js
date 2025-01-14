@@ -1,7 +1,7 @@
 // src/api/index.js
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://employee-management-system-f5zy6w88s.vercel.app/' });
+const API = axios.create({ baseURL: 'https://employee-management-system-j75fw5fi6.vercel.app/api' });
 
 API.interceptors.request.use((req) => {
   const token = localStorage.getItem('token');
