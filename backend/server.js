@@ -8,6 +8,7 @@ const employeeRoutes = require('./routes/employees');
 const departmentRoutes = require('./routes/departments');
 const activityRoutes = require('./routes/activity');
 
+
 dotenv.config();
 const app = express();
 
